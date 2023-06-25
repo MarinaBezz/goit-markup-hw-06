@@ -1,0 +1,258 @@
+/*-------------MOBILE---------------*/
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 428px;
+  }
+}
+/*-------------TABLET---------------*/
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 584px;
+  }
+
+  .team-employees-list {
+    gap: 62px 24px;
+    margin-bottom: 96px;
+  }
+  .team {
+    padding-top: 96px;
+  }
+
+  .team-title {
+    margin-top: 0;
+  }
+
+  .team-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .solution-subtitle {
+    text-align: left;
+  }
+  .solution-list {
+    flex-direction: unset;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+  }
+
+  .solution-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .solution-text {
+    width: 100%;
+  }
+  .solutions-container {
+    display: flex;
+    max-width: 736px;
+  }
+
+  .customer-icon-link {
+    width: 168px;
+  }
+
+  .customers {
+    padding: 0 0 96px 0;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    align-items: unset;
+    flex-direction: unset;
+    gap: 72px 24px;
+  }
+
+  .logo-footer-container,
+  .footer-input-title,
+  .footer-soc-title {
+    text-align: left;
+  }
+  .footer-input {
+    width: 264px;
+  }
+  .footer-form {
+    flex-direction: unset;
+  }
+
+  .main-header-title {
+    max-width: 496px;
+    font-size: 56px;
+    margin-bottom: 36px;
+  }
+  .main-header {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/office-tab.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-header {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/office-tab-2x.jpg);
+    }
+  }
+
+  .header-menu {
+    display: flex;
+    gap: 40px;
+    margin-right: 120px;
+  }
+  .header-container {
+    max-width: 768px;
+    height: 72px;
+    align-items: center;
+  }
+
+  .header-logo-link {
+    margin-right: 120px;
+  }
+
+  .address-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .address-link {
+    font-size: 12px;
+  }
+  .address-menu-item {
+    padding: 0;
+  }
+}
+/*-------------DESKTOP---------------*/
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+  .team-employees-list {
+    flex-wrap: unset;
+    gap: 24px;
+    margin-bottom: 0;
+  }
+  .team-list-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .team-title {
+    margin-top: 0;
+  }
+  .team {
+    padding-top: 120px;
+  }
+
+  .doing-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .doing {
+    display: flex;
+    padding-bottom: 120px;
+  }
+
+  .doing-item {
+    width: calc((100% - 24px * 2) / 3);
+  }
+
+  .solutions {
+    padding: 120px 0;
+  }
+  .solution-icon-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    gap: 24px;
+  }
+
+  .solution-list {
+    flex-wrap: unset;
+    gap: 24px;
+  }
+
+  .solution-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-main-color);
+    margin-bottom: 8px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+  }
+  .solution-item {
+    width: calc((100% - 24px * 3) / 4);
+  }
+  .customers-list {
+    gap: 24px;
+  }
+
+  .customers {
+    padding: 120px 0;
+  }
+
+  .customer-item {
+    width: calc((100% - 120px) / 6);
+  }
+
+  .footer-container {
+    align-items: unset;
+    flex-direction: unset;
+    gap: unset;
+  }
+
+  .logo-footer-container {
+    margin-right: 120px;
+  }
+
+  .container-soc {
+    margin-right: 80px;
+  }
+
+  .main-header-title {
+    margin-bottom: 48px;
+  }
+
+  .main-header {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/office.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-header {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/office-2x.jpg);
+    }
+  }
+
+  .header-logo-link {
+    margin-right: 76px;
+  }
+  .address-link {
+    font-size: 16px;
+  }
+  .address-menu {
+    display: flex;
+    flex-direction: unset;
+    gap: 40px;
+  }
+}
