@@ -3,6 +3,29 @@
   .container {
     max-width: 428px;
   }
+  .footer-input {
+    width: 398px;
+  }
+
+  .menu-icons-list {
+    gap: 56px;
+  }
+
+  .burger-tel-link {
+    font-size: 36px;
+  }
+
+  .modal {
+    width: 408px;
+  }
+
+  .form-title {
+    width: 360px;
+  }
+
+  /* .customer-item {
+    width: 100%;
+  } */
 
   /* .burger-tel-link {
     font-size: 24px;
@@ -58,8 +81,12 @@
     max-width: 736px;
   }
 
-  .customer-icon-link {
-    width: 168px;
+  .customers-list {
+    gap: 72px 24px;
+  }
+
+  .customer-item {
+    width: calc((100% - 48px) / 3);
   }
 
   .customers {

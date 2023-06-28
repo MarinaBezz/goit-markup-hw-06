@@ -262,7 +262,7 @@ ul {
 }
 
 .burger-tel-link {
-  font-size: 36px;
+  font-size: 26px;
   font-family: Roboto;
   font-weight: 700;
   line-height: 1.11;
@@ -275,7 +275,7 @@ ul {
 }
 .menu-icons-list {
   display: flex;
-  gap: 56px;
+  gap: 36px;
   /* flex-wrap: wrap; */
 }
 .menu-item-icon {
@@ -391,7 +391,7 @@ ul {
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
 }
 
 .solution-text {
@@ -537,15 +537,15 @@ ul {
 }
 
 .customer-item {
-  /* width: calc((100% - 120px) / 6); */
+  width: calc((100% - 16px) / 2);
   height: 88px;
 }
 
 .customer-icon-link {
-  /* width: 100%;
-  height: 100%; */
-  width: 190px;
-  height: 88px;
+  width: 100%;
+  height: 100%;
+  /* width: 190px;
+  height: 88px; */
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
@@ -686,7 +686,8 @@ ul {
 
 .footer-input {
   /* width: 264px; */
-  width: 398px;
+  /* width: 398px; */
+  width: 290px;
   height: 40px;
   border: 1px solid #ffffff;
   border-radius: 4px;
@@ -888,10 +889,8 @@ ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
+  width: 90%;
   padding: 72px 24px 24px 24px;
-  /* padding-right: 24px;
-  padding-left: 24px; */
   min-height: 584px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -941,7 +940,6 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-main-color);
-  width: 360px;
   margin-bottom: 16px;
 }
 
